@@ -1,0 +1,220 @@
+@media only screen and (min-width:769px) and (max-width:890px){
+    /*Header style start*/
+    .head h3{
+        font-size: 1.3vw;
+        width: 15vw;
+    }
+    .head:first-child i{
+        margin-top: 2vw;
+    }
+    .head #button{
+        width: 14vw;
+        font-size: 1.5vw;
+    }
+    .head:first-child #telephone i{
+        margin-top: 2.5vw;
+    }
+    nav [src="logo.svg"]{
+        width: 10vw;
+        height: 5vw;
+    }
+    nav a{
+        border: 0.3vw solid gray;
+        padding: 0.3vw;
+        font-size: 1.3vw;
+    }
+    /*Header style end*/
+
+    /*Style for a and p elements of content in section-1 start*/
+    .content p{
+        font-size: 1.3vw;
+        width: 70%;
+    }
+    .content a{
+        font-size: 1.7vw;
+        padding: 0.8vw;
+    }
+    /*Style for a and p elements of content in section-1 end*/
+
+    /*Style for a element in .section-2 start*/
+    .section:nth-child(2) a{
+        font-size: 1.7vw;
+        height: 4.5vw;
+        width: 18vw;
+        padding: 1.3vw;
+    }
+    /*Style for a element in .section-2 end*/
+
+    /*Section-3 style start*/
+    .section:nth-child(3){
+        height: 51vw;
+    }
+    .section:nth-child(3) img{
+        width: 50%;
+        transform: scale(1.02);
+    }
+    .section:nth-child(3) .text{
+        width: 50%;
+    }
+    .section:nth-child(3) .text .content{
+        padding: 2.5vw;
+        padding-top: 1vw;
+    }
+    .section:nth-child(3) .text .content h1{
+        width: 30%;
+        font-size: 2.5vw;
+    }
+    .section:nth-child(3) .text .content .information p{
+        font-size: 1.2vw;
+    }
+    /*Section-3 style end*/
+
+    /*Section-4 style start*/
+    .section:nth-child(4){
+        height: 130vw;
+    }
+    .section:nth-child(4) .card{
+        height: 34vw;
+    }
+    .image_and_razmer h3{
+        font-size: 1.4vw;
+    }
+    .image_and_razmer p{
+        font-size: 1.3vw;
+    }
+    .prices .price h3{
+        font-size: 1.5vw;
+    }
+    .prices .price p{
+        font-size: 1.1vw;
+    }
+    /*Section-4 style end*/
+
+    /*Section-5 style start*/
+    .section:nth-child(5) .info [src="logo.svg"]{
+        height: 5vw;
+        width: 10vw;
+    }
+    .section:nth-child(5) .text:nth-child(3){
+        margin-top: -3vw;
+    }
+    .section:nth-child(5) .text:last-child{
+        margin-top: -3vw;
+    }
+    .section:nth-child(5) .text p{
+        width: 70%;
+        font-size: 1.4vw;
+        text-align: left;
+    }
+    .section:nth-child(5) .text img{
+        width: 4vw;
+        height: 4vw;
+        margin-top: 0.7vw;
+    }.section:nth-child(5) .text:nth-child(3) img{
+        margin-top: 1vw;
+    }
+    .section:nth-child(5) .text:last-child img{
+        margin-top: 1.2vw;
+    }
+    .section:nth-child(5) .image{
+        width: 80%;
+        height: 100%;
+    }
+    /*Section-5 style end*/
+
+    /*Section-6 style start*/
+    .section:nth-child(6) {
+        height: 105vw;
+    }
+    .section:nth-child(6) p{
+        margin-top: -1vw;
+        font-size: 1.5vw;
+        color: #000;
+        font-weight: 400;
+    }
+    /*Section-6 style end*/
+
+    /*Section-7 style start*/
+    .section:nth-child(7){
+        height: 73vw;
+    }
+    .section:nth-child(7) .card{
+        width: 23vw;
+        height: 27vw;
+    }
+    .section:nth-child(7) .card .content h3{
+        font-size: 1.4vw;
+    }
+    .section:nth-child(7) .card .content p{
+        font-size: 1.3vw;
+    }
+    .section:nth-child(7) .inline_row:first-child .card:nth-child(1) img{
+        margin-top: -2vw;
+    }
+    .section:nth-child(7) .inline_row:first-child .card:nth-child(1) .content{
+        margin-top: -4vw;
+    }
+    .section:nth-child(7) .inline_row:first-child .card:nth-child(1) .content p{
+        margin-top: -0.5vw;
+    }
+    .section:nth-child(7) .inline_row:first-child .card:nth-child(2) img{
+        margin-top: -4vw;
+    }
+    .section:nth-child(7) .inline_row:first-child .card:nth-child(2) .content{
+        margin-top: -8vw;
+    }
+    .section:nth-child(7) .inline_row:first-child .card:nth-child(2) .content p{
+        margin-top: -0.5vw;
+    }
+    .section:nth-child(7) .inline_row:first-child .card:nth-child(3) .content{
+        margin-top: -4.5vw;
+    }
+    .section:nth-child(7) .inline_row:first-child .card:nth-child(3) .content p{
+        margin-top: -0.5vw;
+    }
+    .section:nth-child(7) .inline_row:first-child .card:nth-child(3) img{
+        margin-top: -2.5vw;
+    }
+    .section:nth-child(7) .inline_row:last-child .card:nth-child(1) img{
+        margin-top: -2vw;
+    }
+    .section:nth-child(7) .inline_row:last-child .card:nth-child(1) .content{
+        margin-top: -4vw;
+    }
+    .section:nth-child(7) .inline_row:last-child .card:nth-child(1) .content p{
+        margin-top: -0.5vw;
+    }
+    .section:nth-child(7) .inline_row:last-child .card:nth-child(2) .content{
+        margin-top: -10vw;
+    }
+    .section:nth-child(7) .inline_row:last-child .card:nth-child(2) .content p{
+        margin-top: -0.5vw;
+    }
+    .section:nth-child(7) .inline_row:last-child .card:nth-child(2) img{
+        margin-top: -5vw;
+    }
+    .section:nth-child(7) .inline_row:last-child .card:nth-child(3) .content{
+        margin-top: -13vw;
+    }
+    .section:nth-child(7) .inline_row:last-child .card:nth-child(3) img{
+        margin-top: -6vw;
+    }
+    .section:nth-child(7) .inline_row:last-child .card:nth-child(3) .content p{
+        margin-top: -0.5vw;
+    }
+    /*Section-7 style end*/
+
+    /*footer style start*/
+    footer h3,p{
+        font-size: 1.3vw;
+    }
+    .maqazin #time i{
+        font-size: 1.7vw;
+        margin-top: 1.4vw;
+    }
+    .maqazin #telephone i{
+        font-size: 1.7vw;
+        margin-top: 2.6vw;
+    }
+    /*footer style end*/
+}

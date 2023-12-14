@@ -1,0 +1,317 @@
+@media only screen and (max-width:540px){
+    /*Navbar menu style start*/
+    .header_section:first-child{
+        display: none;
+    }
+    .header_section:last-child .head:first-child, #close_icon{
+        display: none;
+    }
+    .head div{
+        position: absolute;
+        z-index: 3;
+        box-sizing: border-box;
+        padding: 10vw 3vw 3vw 3vw;
+        flex-direction: column;
+        gap: 3vw;
+        top: 0;
+        right: 0;
+        gap: 5vw;
+        display: none;
+        background-color:#404040;
+        width: 50vw;
+        flex-grow: 0;
+        height: 100vh;
+    }
+    .head div a{
+        text-align: left;
+        color: #fff;
+        font-size: 4vw;
+    }
+    .header_section:last-child .head:last-child i{
+        color: #000;
+        font-size: 5vw;
+        position: absolute;
+        z-index: 4;
+        right: 5vw;
+    }
+    nav .container{
+        width: 90%;
+    }
+    nav [src="logo.svg"]{
+        width: 15vw;
+        height: 10vw;
+    }
+    /*Navbar menu style end*/
+
+     /*Section-1 style start*/
+     .section:nth-child(1){
+        height: 70vw;
+     }
+     .content h1{
+        font-size: 5vw;
+        width: 100%;
+     }
+     .content p{
+        font-size: 3vw;
+        width: 100%;
+        margin-top: -0.5vw;
+    }
+    .content a{
+        font-size: 4vw;
+        letter-spacing: 0.2vw;
+        border-radius: 5vw;
+        height: 8vw;
+        width: 25vw;
+        padding: 1vw;
+    }
+    /*Section-1 style end*/
+
+    /*Section-2 style start*/
+    .section:nth-child(2){
+        height: 380vw;
+    }
+    .section:nth-child(2) .catalog_row{
+        flex-direction: column;
+        align-items: baseline;
+        gap: 2.5vw;
+    }
+    .section:nth-child(2) .inline_row{
+        flex-direction: column;
+        width: 100%;
+        gap: 2vw;
+    }
+    .section:nth-child(2) .card{
+        width: 100%;
+        height: 40vw;
+    }
+    .section:nth-child(2) .card img{
+        width: 50%;
+        transform: scale(1.5);
+    }
+    .section:nth-child(2) .card h3{
+        font-size: 4vw;
+        color: #000;
+    }
+    .section:nth-child(2) a{
+        font-size: 3vw;
+        height: 6vw;
+        letter-spacing: 0.2vw;
+        width: 30vw;
+        padding: 1vw;
+    }
+    /*Section-2 style end*/
+
+    /*Section-3 style start*/
+    .section:nth-child(3){
+        height: 200vw;
+    }
+    .section:nth-child(3) .row{
+        flex-direction: column;
+    }
+    .section:nth-child(3) img{
+        border-radius: 3vw;
+        width: 100%;
+        transform: scale(1);
+    }
+    .section:nth-child(3) .text{
+        width: 100%;
+    }
+    .section:nth-child(3) .text .content{
+        padding: 2.5vw;
+        padding-top: 0vw;
+    }
+    .section:nth-child(3) .text .content h1{
+        width: 100%;
+        font-size: 5vw;
+    }
+    .section:nth-child(3) .text .content .information h3{
+        margin-top: 0vw;
+        font-size: 3vw;
+    }
+    .section:nth-child(3) .text .content .information p{
+        margin-top: 0vw;
+        font-size: 2.5vw;
+    }
+    .section:nth-child(3) .text .content a{
+        font-size: 5vw;
+        border-radius: 5vw;
+        width: 30vw;
+        height: 8vw;
+        padding: 0.6vw;
+    }
+    /*Section-3 style end*/
+
+    /*Section-4 style start*/
+    .section:nth-child(4){
+        height: 470vw;
+    }
+    .section:nth-child(4) .catalog_row{
+        flex-direction: column;
+        gap: 3vw;
+    }
+    .section:nth-child(4) .card{
+        height: 70vw;
+        width: 100%;
+    }
+    .section:nth-child(4) .card img{
+        width: 100%;
+        height: 37vw;
+    }
+    .color{
+        width: 2vw;
+        height: 2vw;
+    }
+    .image_and_razmer h3{
+        font-size: 3vw;
+    }
+    .image_and_razmer p{
+        font-size: 2.5vw;
+    }
+    .prices .price {
+        width: 100%;
+    }
+    .prices .price h3{
+        height: 0.5vw;
+        width: 100%;
+        font-size: 3vw;
+    }
+    .prices .price p{
+        margin-top: 0;
+        font-size: 2vw;
+    }
+    .section:nth-child(4) .card i{
+        font-size: 3vw;
+        padding: 3vw;
+        width: 15vw;
+        height: 8vw;
+        border-radius: 3vw 0 1.5vw 0;
+    }
+    /*Section-4 style end*/
+
+    /*Section-5 style start*/
+    .section:nth-child(5) {
+        height: 130vw;
+    }
+    .section:nth-child(5) .container{
+        width: 100%;
+    }
+    .production{
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+    .section:nth-child(5) .info{
+        position: relative;
+        padding-top: 18vw;
+        margin: 0 auto;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 80%;
+    }
+    .section:nth-child(5) .info [src="logo.svg"]{
+        top: 5vw;
+        left: 35%;
+        position: absolute;
+        height: 7vw;
+        width: 18vw;
+    }
+    .section:nth-child(5) .text{
+        overflow: auto;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+        border: 0.3vw solid #fff;
+        border-radius: 2vw;
+        gap: 0;
+    }
+    .section:nth-child(5) .text p{
+        width: 100%;
+        font-size: 2.5vw;
+        text-align: left;
+    }
+    .section:nth-child(5) .text img{
+        width: 100%;
+        height: 5vw;
+    }    
+    .section:nth-child(5) .image{
+        width: 100%;
+        height: 100%;
+    }
+    /*Section-5 style end*/
+
+    /*Section-6 style start*/
+    .section:nth-child(6) {
+        height: 140vw;
+    }
+    .section:nth-child(6) .inline_row img{
+        width: 30%;
+    }
+    .section:nth-child(6) .inline_row:last-child img{
+        width: 40%;
+    }
+    .section:nth-child(6) p{
+        margin-top: -1vw;
+        font-size: 2.5vw;
+        color: #000;
+        font-weight: 400;
+    }
+    /*Section-6 style end*/
+
+    /*Section-7 style start*/
+    .section:nth-child(7){
+        height: 530vw;
+    }
+    .section:nth-child(7) .cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+    .section:nth-child(7) .inline_row{
+        flex-direction: column;
+        gap: 4vw;
+        width: 100%;
+    }
+    .section:nth-child(7) .card{
+        width: 100%;
+        height: 80vw;
+    }
+    .section:nth-child(7) .card img{
+        height: 15vw;
+        width: 15vw;
+    }
+    .section:nth-child(7) .card .content h3{
+        font-size: 5vw;
+    }
+    .section:nth-child(7) .card .content p{
+        font-size: 4vw;
+    }
+    /**Section-7 style end*/
+
+    /*footer style start*/
+    footer .contact, footer .other{
+        flex-direction: column;
+    }
+    .maqazin, .katalog, .servis, .kompaniya{
+        width: 100%;
+    }
+    footer h1{
+        font-size: 7vw;
+    }
+    footer a{
+        font-size: 5vw;
+    }
+    footer .maqazin #time, footer .maqazin #telephone{
+        justify-content: center;
+        align-items: center;
+        gap: 2vw;
+    }
+    footer .maqazin #time i, footer .maqazin #telephone i{
+        font-size: 5vw;
+    }
+    footer h3,p{
+        font-size: 5vw;
+    }
+    /*footer style end*/
+}
